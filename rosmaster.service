@@ -1,0 +1,8 @@
+<!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+<service-group>
+  <name replace-wildcards="yes">rosmaster on %h</name>
+  <service>
+    <type>_ros._tcp</type>
+    <port>11311</port>
+  </service>
+</service-group>
